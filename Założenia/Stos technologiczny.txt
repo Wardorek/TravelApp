@@ -1,0 +1,16 @@
+Stos technologiczny
+
+1.Aplikacja mobilna:
+	a.Jêzyk: Android Java
+	b.IDE: Android Studio
+	c.Inne: Wykorzystanie material design, Java Retrofit,
+2.Strona internetowa:
+	a.Jêzyk: Angular Javascript
+	b.IDE: InteliJ
+	c.Inne:  Java Retrofit
+3.Backend:
+	a.Jêzyk: Oracle SQL
+	b.IDE: Power Designer?
+	c.Inne: ?
+
+
