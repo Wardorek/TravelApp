@@ -1,0 +1,33 @@
+#map {
+    height: 100%;
+
+
+}
+html, body {
+    height: 99%;
+    margin: 0;
+    padding: 0;
+
+}
+footer {
+    background-color: gray;
+    text-align: center;
+	font-weight: bold;
+	color: black;
+    z-index: 1;
+}
+nav{
+    position: absolute;
+	z-index: 1;
+	background-color: #00a900;
+	height: 98%;
+	
+}
+
+ ul li{
+	width: 190px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6B8E23;
+ }
