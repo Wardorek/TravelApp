@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = style.css rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Dodawanie posta</title>
+</head>
+<body>
+<center> <font color="gray" size="7"> Dodawanie posta </font> </center>
+
+<navi>
+    <ul>
+        <li><a href="index.jsp">Strona główna</a></li>
+        <li><a href="addpost.html">Dodaj post</a></li>
+        <li> <a href ="post.html">Twoje posty</a></li>
+        <li><a href="galeria.html">Twoja galeria</a></li>
+        <li><a href="userpanel.html">Twoje konto</a></li>
+        <li><a href="logowanie.html">Wyloguj sie</a></li>
+    </ul>
+</navi>
+<center>
+    <form name="addpost">
+<form class ="dodawanie_postu" action="/Post/Servlet" enctype="multipart/form-data" method="post">
+    <table>
+        <input type="text" name="miasto"/>
+        <input type="file" name="nazwa" />
+         <textarea name="tresc" rows="20" cols="60">Wpisz komentarz...</textarea>
+        <input type="submit" value="Wyślij">
+    </table>
+</form>
+    </form>
+</center>
+
+<footer>Maria Czak-Żukowska, Katarzyna Pyznarska, Maciej Tymoszuk</footer>
+</body>
+</html>

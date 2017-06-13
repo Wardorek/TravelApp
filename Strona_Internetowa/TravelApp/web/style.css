@@ -1,0 +1,75 @@
+.logowanie{
+    position:relative;
+    width:300px;
+    height:200px;
+    margin:0 auto;
+    border:1px solid #000;
+    background-color:#AAA;
+}
+#obrazek img{
+    width: 80%;
+    height: 98%;
+    position:relative;
+
+}
+
+td{
+    bordercolor: "#FFFFFF";
+}
+
+
+#map {
+    height: 99%;
+
+
+}
+html, body {
+    height: 98%;
+    margin: 0;
+    padding: 0;
+
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    z-index: 1;
+}
+/*nav{
+    position: absolute;
+    background-color: #00a900;
+    height: 98%;
+
+}
+
+ul li{
+    width: 190px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6B8E23;
+}
+*/
+
+navi ul{
+    background-color: #ddd;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: gray;
+    padding: 3px 5%;
+    margin: 0;
+
+}
+
+navi  li {
+    display: inline;
+    border-right: 1px solid gray;
+    padding: 0 10px;
+}
+
+navi a {
+    color: #666;
+    font: bold 0.8em Arial, sans-serif;
+    text-decoration: none;
+}
